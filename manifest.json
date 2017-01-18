@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "css": [ "css.css" ],
+      "js": [ "start.js" ],
+      "matches": [ "*://*.udndata.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "UDN 剪報通",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "UDN 剪報通",
+   "permissions": [ "\u003Call_urls>" ],
+   "version": "1.0.0",
+   "web_accessible_resources": [ "func.js" ]
+}
